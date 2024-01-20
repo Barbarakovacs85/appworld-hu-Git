@@ -14,7 +14,8 @@ body{
     background-size: cover;
 }
 .container{
-    max-width: 700px;
+    height: 97%;
+    max-width: 800px;
     width: 100%;
     background: #fff;
     padding: 20px;  
@@ -48,6 +49,9 @@ h6{
     flex-wrap: wrap;
     width: 50%;
     padding-bottom:20px;
+}
+.user-input-box input::placeholder {
+    font-size: 16px; 
 }
 .user-input-box label{
     width: 95%;
@@ -118,6 +122,7 @@ select {
 }
 @media(max-width: 600px){
     .conatiner{
+      
         min-width: 280px;
     }
     .user-input-box{
