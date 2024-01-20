@@ -9,62 +9,64 @@
 </head>
 <body>
     <div class="container">
-        <div class="title"><i class="fas fa-user-plus"></i>iChat Regisztráció</div>        <form action="#">
-            <div class="user-details">
-                <div class="input-box">
-                    <div class="details">Név</div>
+        <h1 class="form-title"><i class="fas fa-user-plus"></i>iChat Regisztráció</h1>        <form action="#">
+            <form action="#">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label class="details">Név</label>
                     <input type="text" placeholder="Hogy hívnak?">                    
                 </div>
-                <div class="input-box">
-                    <div class="details">E-mail</div>
+                <div class="user-input-box">
+                    <label class="details">E-mail</label>
                     <input type="text" placeholder="E-mail címed">                    
                 </div>
-                <div class="input-box">
-                    <div class="details">Lakhely(ország)</div>
+                <div class="user-input-box">
+                    <label class="details">Lakhely(ország)</label>
                     <input type="text">                    
                 </div>
-                <div class="input-box">
-                    <div class="details">Város</div>
+                <div class="user-input-box">
+                    <label class="details">Város</label>
                     <input type="text">                    
                 </div>
-                <div class="input-box">
-                    <div class="details">Telefonszám</div>
+                <div class="user-input-box">
+                    <label class="details">Telefonszám</label>
                     <input type="text" placeholder="Csak számjegyeket adj meg">                    
                 </div>
-                <div class="input-box">
-                    <div class="details">Születési dátum</div>
+                <div class="user-input-box">
+                    <label class="details">Születési dátum</label>
                     <input date>                    
                 </div>
-                <div class="input-box">
-                    <div class="details">Jelszó</div>
+                <div class="user-input-box">
+                    <label class="details">Jelszó</label>
                     <input type="text" placeholder="Jelszavad">                    
                 </div>
-                <div class="input-box">
-                    <div class="details">Jelszó ismét</div>
+                <div class="user-input-box">
+                    <label class="details">Jelszó ismét</label>
                     <input type="text" placeholder="Jelszavad ismét">                    
                 </div>
-                <div class="gender-details">
-                    <div class="gender-title">Nemed:</div>
-                    <div class="category">
-                        <input type="radio" name="gender" value="male"> Férfi
-                        <br>
-                        <input type="radio" name="gender" value="female"> Nő
-                        <br>
-                        <input type="radio" name="gender" value="female"> Egyéb
-                        <br>
+                <div class="gender-details-box">
+                    <span class="gender-title">Nemed:</span>
+                    <div class="gender-category">
+                        <input type="radio" name="gender" value="male"> 
+                        <label for="male">Férfi</label>
+                        <input type="radio" name="gender" value="female"> 
+                        <label for="female">Nő</label>
+                        <input type="radio" name="gender" value="female"> 
+                        <label for="other">Egyéb</label>
                     </div>
                         <div class="checkbox-content">                
                             <input type="checkbox" id="">
                             <label for="">A felhasználói feltételeket elfogadom</label>
                         </div>
+                    </div>
                 </div>
-            </div>
-            <div class="button">
+            <div class="form-button-btn">
                 <input type="submit" value="Regisztráció">
             </div>
-            <div class="more-details">Elfelejtette a jelszót?
+            <label class="more-details">Elfelejtette a jelszót?
                 <br>Már regisztráltál?
-            </div>
+            </label>
+            
         </form>
     </div>
 </body>
