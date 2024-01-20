@@ -27,3 +27,14 @@ body{
     font-weight: 500;
     
 }
+.container form .user-details{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+form .user-details .input-box{
+    width: calc(100%/2 -20px);
+}
+.user-details .input-box input{
+    height: 45px;;
+}
