@@ -4,37 +4,32 @@
     box-sizing:border-box;
     font-family:Arial, Helvetica, sans-serif;
 }
-body{
-    display: flex;
+.container{
     height: 100vh;
+    width: 100%;
+    display: flex;
     align-items:center;
     justify-content: center;
-    padding:2px;
-    background:#D2E4FD;
-    background-size: cover;
+    background:#FAB2FD;
 }
-.container{
-    height: 97%;
-    max-width: 800px;
+.form{
+    max-width:430px;
     width: 100%;
+    padding:3px;
     background: #fff;
-    padding: 20px;  
-    margin: 0 28px;  
-    padding-right:5px;  
-    
 }
-.form-image {
-    width: 50px;
-    height: 50px;
-}
-.form-title{
-    margin-top:25px;
+header{
+    font-size: 28px;
     font-weight: 100;
-    padding-bottom: 40px; 
-    padding-top:30px;
-    margin-bottom:2px;
+    text-align: center;
 }
-
+form{
+    margin-top: 30px;
+}
+.icon{
+    width: 7%;
+    height: 7%;
+}
 h6{
     font-family: Times, serif;
     font-size: 40px;
@@ -74,32 +69,7 @@ h6{
     border-left:0.5px solid rgb(143, 140, 140);
     
 }
-select {
-    height: 40px;
-    width: 95%;
-    padding: 0 10px;
-    border-radius: 8px;
-    border-color: rgb(143, 140, 140);
-    border:0.5px solid  rgb(143, 140, 140) ;
-    border-left:0.5px solid rgb(143, 140, 140);
-}
-.gender-title{
-    margin-top: 5px;
-    font-size: 15px;
-    font-weight: 100;
-}
-.gender-category{
-    display: block;
-    align-items: column;
-    margin:5px 0;
-    
-}
-.checkbox-content{
-    margin-top: 25px;
-}
-.gender-category-label{
-    padding:0 20px 0 5px;
-}
+
 .form-submit-btn{
     margin-top: 40px; 
 }
