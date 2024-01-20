@@ -18,16 +18,20 @@ body{
     width: 100%;
     background: #fff;
     padding: 28px;  
-    margin: 0 28px;    
-    box-sizing: border-box; 
+    margin: 0 20px;    
     
 }
 .form-title{
-    font-size:26px;
-    font-weight: 600;
-    text-align:center;
-    padding-bottom: 6px;
-      
+    
+    font-weight: 100;
+    padding-bottom: 40px; 
+    padding-top:150px;
+    margin-bottom:2px;
+}
+h6{
+    font-family: Times, serif;
+    font-size: 35px;
+    text-align: center;
 }
 .main-user-info{
     display: flex;
@@ -35,15 +39,37 @@ body{
     justify-content: space-between;
     padding: 20px 0
 }
-.main-user-box:nth-child(2nd){
+.main-user-box:nth-child(2n){
     justify-content: end;
 }
 .user-input-box{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
+    padding-bottom:20px;
 }
 .user-input-box label{
     width: 95%;
-    
+    font-size:15px;
+    font-weight: 400;
+    margin: 10px 0;
+   
+}
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 10px;
+    border-color: rgb(232, 231, 231);
+}
+.gender-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.gender-category{
+    margin:15px 0;
+
+}
+.gender-category-label{
+    padding:0 20px 0 5px;
 }
