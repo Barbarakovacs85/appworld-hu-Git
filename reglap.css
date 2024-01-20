@@ -86,6 +86,7 @@ h6{
     margin-top: 40px; 
 }
 .form-button-btn input{
+
     display: block;
     width: 99%;
     margin-top: 25px;
@@ -105,4 +106,28 @@ h6{
 .more-details a{
     text-decoration: none;
     color:#0D6EFD;
+}
+@media(max-width: 600px){
+    .conatiner{
+        min-width: 280px;
+    }
+    .user-input-box{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .user-input-box:nth-child(2n){
+        justify-content: space-between;
+    }
+    .gender-category{
+        display:flex;
+        justify-content: space-between;
+        width: 100%;  
+    }
+    .main-user-info{
+        max-height: 380px;
+        overflow: auto; 
+    }
+    .main-user-info::-webkit-scrollbar{
+        width: 0;
+    }
 }
