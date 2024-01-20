@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,44 +13,48 @@
             <form action="#">
             <div class="main-user-info">
                 <div class="user-input-box">
-                    <label class="details">Név</label>
+                    <label>Név</label>
                     <input type="text" placeholder="Hogy hívnak?">                    
                 </div>
                 <div class="user-input-box">
-                    <label class="details">E-mail</label>
+                    <label>E-mail</label>
                     <input type="text" placeholder="E-mail címed">                    
                 </div>
                 <div class="user-input-box">
-                    <label class="details">Lakhely(ország)</label>
+                    <label>Lakhely(ország)</label>
                     <input type="text">                    
                 </div>
                 <div class="user-input-box">
-                    <label class="details">Város</label>
+                    <label>Város</label>
                     <input type="text">                    
                 </div>
                 <div class="user-input-box">
-                    <label class="details">Telefonszám</label>
+                    <label>Telefonszám</label>
                     <input type="text" placeholder="Csak számjegyeket adj meg">                    
                 </div>
                 <div class="user-input-box">
-                    <label class="details">Születési dátum</label>
+                    <label>Születési dátum</label>
                     <input type="date" placeholder="éééé.hh.nn">                    
                 </div>
                 <div class="user-input-box">
-                    <label class="details">Jelszó</label>
+                    <label>Jelszó</label>
                     <input type="text" placeholder="Jelszavad">                    
                 </div>
                 <div class="user-input-box">
-                    <label class="details">Jelszó ismét</label>
+                    <label>Jelszó ismét</label>
                     <input type="text" placeholder="Jelszavad ismét">                    
                 </div>
                 <div class="gender-details-box">
-                    <span class="gender-title">Nemed:</span>
+                    <div class="gender-title">Nemed:</div>
                     <div class="gender-category">
                         <input type="radio" name="gender" value="male"> 
                         <label for="male">Férfi</label>
+                    </div>
+                    <div class="gender-category">
                         <input type="radio" name="gender" value="female"> 
                         <label for="female">Nő</label>
+                    </div>
+                    <div class="gender-category">
                         <input type="radio" name="gender" value="female"> 
                         <label for="other">Egyéb</label>
                     </div>
@@ -63,9 +67,11 @@
             <div class="form-button-btn">
                 <input type="submit" value="Regisztráció">
             </div>
-            <label class="more-details">Elfelejtette a jelszót?
-                <br>Már regisztráltál?
-            </label>
+            <div class="more-details">
+                <a href="#">Elfelejtetted a jelszavad? </a>
+                <br>
+                <a href="#">"Már regisztráltál?"</a>
+                </div>
             
         </form>
     </div>
