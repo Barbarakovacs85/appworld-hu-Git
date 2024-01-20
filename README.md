@@ -3,4 +3,9 @@ Az elkészítési folyamat:
 
 Ez egy regisztrációs felület reszponzív nézettel. Flexboxban készül.
   -elkészítettem az alap input mezőket ,a checkbox részt és a regisztrációs submit gombot
-  Css-ben elkezdtem a stilizálást
+  
+  
+Css-ben elkezdtem a stilizálást:
+-Megadtam az alap paramétereket, ezután a container részeit-nek megadtam a stílus elemeit.
+-Középre igazítottam a flexbox-on belül.
+-Megformáztam a fő elemeket és az input mezők részeit
