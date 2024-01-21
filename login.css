@@ -5,36 +5,49 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 .container{
+    
     height: 100vh;
     width: 100%;
-    display: flex;
+    padding-top:120px;
+    padding-left:750px;
     align-items:center;
     justify-content: center;
     background:#FAB2FD;
+    padding-bottom:270px;
 }
 .form{
-    max-width:430px;
+    position: relative;
+    margin-top:-50px;
+    max-width:440px;
     width: 100%;
     padding:3px;
     background: #fff;
+    
 }
 header{
-    font-size: 28px;
-    font-weight: 100;
+    font-size: 40px;
+    font-weight:100;
     text-align: center;
+    margin-left:60px;
 }
 form{
-    margin-top: 30px;
+    margin-top: 120px;
+    
 }
-.icon{
-    width: 7%;
-    height: 7%;
+.form-content .logo {
+    position: relative;
+    height: 100px;
 }
-h6{
-    font-family: Times, serif;
-    font-size: 40px;
-    text-align: center;
+.form-content .logo img {
+    margin-top:5px;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    margin-left: 70px;
+    width: 50px;
+    height: 50px;
 }
+
 .main-user-info{
     display: flex;
     flex-wrap: wrap;
