@@ -20,7 +20,7 @@ Css-ben elkezdtem a stilizálást:
 - és a végén két a href attributumot középre igazítottam megváltoztattam a színt és kiszedtem az aláhúzást a szöveg alól.
 - beállítottam a responzivitást.
   
-![képernyő 1](https://github.com/Barbarakovacs85/appworld-hu-Git/assets/133600947/650a2be5-a821-4c26-8a30-083d445beb39)
+![feladat1](https://github.com/Barbarakovacs85/appworld-hu-Git/assets/133600947/b0d2511a-d46d-4281-901f-1b06ab25c1a8)
 
 Elkészítése folyamat:
 
@@ -33,4 +33,7 @@ Css-ben elkezdtem a stilizálást:
   - Megadtam az alap paramétereket, ezután a container részeit-nek megadtam a stílus elemeit.
   - Középre igazítottam a flexbox-on belül.
   - Megformáztam a fő elemeket és az input mezők részeit
-    
+  - Megformáztam a submit gombot
+  - és a végén két a href attributumot középre igazítottam megváltoztattam a színt és kiszedtem az aláhúzást a szöveg alól.
+  - beállítottam a responzivitást.
+
