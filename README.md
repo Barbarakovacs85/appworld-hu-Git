@@ -20,7 +20,7 @@ Css-ben elkezdtem a stilizálást:
 - és a végén két a href attributumot középre igazítottam megváltoztattam a színt és kiszedtem az aláhúzást a szöveg alól.
 - beállítottam a responzivitást.
   
-![feladat1](https://github.com/Barbarakovacs85/appworld-hu-Git/assets/133600947/b0d2511a-d46d-4281-901f-1b06ab25c1a8)
+![feladat1](https://github.com/Barbarakovacs85/appworld-hu-Git/assets/133600947/eeb352b5-899b-4205-8a5e-0783e1b42c07)
 
 Elkészítése folyamat:
 
@@ -37,3 +37,4 @@ Css-ben elkezdtem a stilizálást:
   - és a végén két a href attributumot középre igazítottam megváltoztattam a színt és kiszedtem az aláhúzást a szöveg alól.
   - beállítottam a responzivitást.
 
+![Feladat2](https://github.com/Barbarakovacs85/appworld-hu-Git/assets/133600947/bd80d0e6-11ed-4ee5-ab9b-00476730650a)
