@@ -37,4 +37,4 @@ Css-ben elkezdtem a stilizálást:
   - és a végén két a href attributumot középre igazítottam megváltoztattam a színt és kiszedtem az aláhúzást a szöveg alól.
   - beállítottam a responzivitást.
 
-![Feladat2](https://github.com/Barbarakovacs85/appworld-hu-Git/assets/133600947/bd80d0e6-11ed-4ee5-ab9b-00476730650a)
+![Feladat2](https://github.com/Barbarakovacs85/appworld-hu-Git/assets/133600947/3fbf6748-54bf-453a-9eb5-e8f025cb4966)
