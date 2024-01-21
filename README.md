@@ -21,3 +21,16 @@ Css-ben elkezdtem a stilizálást:
 - beállítottam a responzivitást.
   
 ![képernyő 1](https://github.com/Barbarakovacs85/appworld-hu-Git/assets/133600947/650a2be5-a821-4c26-8a30-083d445beb39)
+
+Elkészítése folyamat:
+
+Ez egy belépő felület reszponzív nézettel. Flexboxban készül.  
+  - a regisztrációs submit gombot
+  - két a href-et helyeztem el a leg aljára
+  - végül a footer-ben a Copyright részt
+
+Css-ben elkezdtem a stilizálást:
+  - Megadtam az alap paramétereket, ezután a container részeit-nek megadtam a stílus elemeit.
+  - Középre igazítottam a flexbox-on belül.
+  - Megformáztam a fő elemeket és az input mezők részeit
+    
