@@ -38,21 +38,21 @@ body{
 .card h3 {
     font-family: 'Times New Roman', Times, serif;
     color:rgb(94, 94, 94);
-    font-size: 0.9em;
+    font-size: 100%;
     margin-bottom: 8px;
 }
 
 
 .card h5 {
-    margin-top:45px;
+    margin-top:47px;
     border-radius:10px;
-    width:40%;
-    height: 15px;
+    width:45%;
+    height: 18px;
     background:rgb(122, 118, 118);
     font-size: 0.7em;
     color: #fff;
-    padding-top:2px;
-    padding-left:15px;
+    padding-top:3px;
+    padding-left:12px;
     margin-bottom: 5px;
 }
 
