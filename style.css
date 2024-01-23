@@ -9,12 +9,55 @@ body{
 }
 
 .container {
-    position: absolute;
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
 }
+h1{
+    color:rgb(37, 37, 37);
+    padding-bottom:15px;
+    padding-left:300px;
+}
+.boxes {
+    padding-left:300px;
+    display: flex;
+    width: 100%;
+}
 
+.one {
+    background: white;
+    box-shadow: 0 0 10px 0 rgb(157, 156, 156);
+    border-radius: 5px;
+    padding-left:15px;
+    width: 215px;
+    height: 140px;
+    text-align: center;
+    margin-bottom:15px;
+}
+
+.one h3 {
+    margin-right:25px;
+    margin-top:-10px;
+    margin-bottom: 5px;
+}
+
+.one i {
+    font-size: 24px;
+    margin: 5px;
+}
+
+.list{
+    padding-left:150px;
+    color:#799ed6;
+}
+.list .fa-list{
+    font-size: 13px;
+}
+
+h3 .first{
+    padding-top:150px;
+}
 .content-section {
     width: 70%;
     display: flex;
@@ -66,7 +109,8 @@ body{
 
 
 .card p {
-    line-height: 2;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 
@@ -74,7 +118,8 @@ body{
     
     font-size: 0.8em;
     color: #000; 
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .card img{
     
@@ -85,8 +130,40 @@ body{
     box-shadow: 0 4px 14px rgba(61, 61, 61, 0.4);
 }
 .card-image {
-    
     border-radius:5px;
     background-color: #ddd; 
     height: 150px;
+}
+.submit{
+    
+    padding-left:5px;
+    position: relative;
+    margin-top:15px;
+    background: #0048B4;
+    align-items: center;
+    border-radius:5px;
+    color:white;
+    width: 20%;
+    height: 6.5%;
+}
+.submit1{
+    position: absolute;
+    margin-top:15px;
+    align-items: center;
+    background: #0048B4;
+    border-radius:5px;
+    color:white;
+    margin-left:6px;
+    width: 2.2%;
+    height: 2%;
+}
+.fal.fa-book-open::before{
+    font-size: 25px;
+}
+.comment{
+    position:relative;
+    padding:5px;
+    margin-top:15px;
+    padding-left:150px;
+    margin-bottom:-35px;
 }
