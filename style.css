@@ -103,7 +103,7 @@ body{
 
 .block {
     border: 1px solid rgb(214, 213, 213);
-    width: 210px;
+    width: 205px;
     height: 270px;
     background-color: #f1f1f1;
 }
@@ -163,13 +163,108 @@ body{
 }
 /* -------------------section messenger------------------- */
 
+.section-message {
+    display: flex;
+    width: 65%;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #fff;
+    margin-left:300px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    
+  }
+  .message-container {
+    display: flex;
+    width: 100%;
+    margin:10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden; 
+  }
+ 
+  .user-profile {
+    width: 80px;
+    height: 80px;
+    margin-top:55px;
+    margin-left:15px;
+    margin-right: -35px;
+    border-radius: 50%;
+    border: 1px solid black;
+    overflow: hidden; 
+  }
+  .user-profile img {
+    width: 120%;
+    height: auto;
+    border-radius: 50%;
+    margin-top:15px;
+    display: block; 
+  }
+  .chat-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left:25px;
+    margin-right:20px;
+  }
+  .chat-content textarea{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-left:45px;
+    margin-right:-35px;
+    margin-top:20px;
+    width: 97%;
+    height: 140px;
+    border: 1px solid #ccc;
+  }
+  .message-bubble h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:#6C727E;
+  }
+  .action-buttons {
+    flex: 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top:-10px;
+    padding: 25px;  
+  }
+  .button {
+    font-size: 12px;
+    border:1px solid #0973ED;
+    background-color: #fff;
+    color:#0973ED;
+    margin:5px;
+    padding: 6px;
+    width: 140px;
+    text-align: center;
+    margin-left:-15px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    
+  }
+  .last-button {
+    font-size: 12px;
+    border:1px solid #0973ED;
+    background-color: #fff;
+    color:#0973ED;
+    padding: 5px;
+    width: 70px;
+    height: 135px;
+    margin-top:20px;
+    margin-right: 35px;
+    margin-left:-25px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+    cursor: pointer;
+  }
+/* --------------------------container--------------------   */
 
-
-
-.name-container{
-    position: relative;
-    padding-top:15px;
-}
 .container {
     position: relative;
     width: 100%;
@@ -177,7 +272,6 @@ body{
     justify-content: center;
 }
 .first{
-    
     background: white;
     border-radius: 5px;
     padding-left:15px;
@@ -188,17 +282,19 @@ body{
     box-shadow: 0 4px 14px rgba(61, 61, 61, 0.4);
 
 }
-.profile img{
+.name-container{
+    position: relative;
+    padding-top:15px;
+}
 
+.profile img{
     width: 30px; 
     height: 30px;
     border-radius: 50%; 
     margin-bottom:-20px;
-    margin-right: 650px; 
-    
+    margin-right: 650px;     
 }
 .name{
-    
     margin-right:520px;
     font-size: 18px;
     color:#0973ED;
@@ -208,8 +304,45 @@ body{
     font-size: 18px;
     margin-bottom:5px;
     margin-right:300px;
-
 }
+.fotos-box{
+    padding: 5px;
+    border: 1px solid rgb(212, 210, 210);
+    padding-top:30px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-bottom:-2px;     
+}
+.photo{
+    position: relative;  
+}
+.date{
+    margin-top:90px;
+    border-radius:10px;
+    width:16%;
+    height: 18px;
+    background:#6C727E;
+    font-size: 0.7em;
+    color: #fff;
+    padding-top:3px;
+    padding-right:2px;
+    margin-bottom: 5px;
+}
+.channel{
+    font-size: 15px;
+    margin-right:410px;
+    margin-top:-22px;
+    margin-bottom:15px;
+}
+
+
+
+
+
+
+
+
+
 .name-one{
     margin-top:-15px;
     margin-right:5px;
@@ -234,39 +367,10 @@ body{
 .info .title{
     font-size: 25px;
 }
-.date{
-    margin-top:90px;
-    border-radius:10px;
-    width:16%;
-    height: 18px;
-    background:#6C727E;
-    font-size: 0.7em;
-    color: #fff;
-    padding-top:3px;
-    padding-right:2px;
-    margin-bottom: 5px;
-}
-.channel{
-    font-size: 15px;
-    margin-right:410px;
-    margin-top:-22px;
-    margin-bottom:15px;
-}
-.photo{
-    position: relative;
-    
-}
 
-.fotos-box{
-    padding: 5px;
-    border: 1px solid rgb(212, 210, 210);
-    padding-top:30px;
-    border-radius: 8px;
-    margin-right: 10px;
-    margin-bottom:-2px;
 
-       
-}
+
+
 .photo img{
     width: 102%;
     border-radius: 8px;
