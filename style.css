@@ -7,6 +7,70 @@
 body{
     background:#D2E4FD;
 }
+h1{
+    padding-left:250px;
+    color:rgb(42, 42, 42);
+  }
+  
+  /* ------------------wetter section----------------- */
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    background: rgb(58, 57, 57);
+    width: 70%;
+    margin:0 250px;
+    border-radius: 8px;
+    border:10px solid rgb(207, 206, 206);
+  }
+  .left-seit, .right-seit{
+      display: flex;
+      flex:1;
+  }
+  .left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:-35px;
+    margin-bottom:-45px;
+    margin-left:-35px;
+    padding: 50px;
+    color:white;
+  }
+  .wetter-foto-one img {
+    width: 70px; 
+    height: 70px; 
+    margin-left:-20px;
+  }
+  .left-content h3{
+    font-size:18/px;
+  }
+  .right-seit{
+      flex:2;
+  }
+  
+  .right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:-45px;
+    margin-bottom:-45px;
+    padding: 50px;
+    color:white;
+  }
+  .wetter-foto img {
+    width: 30px; 
+    height: 30px; 
+    object-fit: cover; 
+  }
+  .right-content h6{
+    font-size: 14px;
+    margin:2px 0 0;
+  }
+  .right-content h5{
+    font-size: 14px;
+    margin:2px;
+  }
+  
 .name-container{
     position: relative;
     padding-top:15px;
@@ -131,7 +195,6 @@ body{
     
     background: white;
     border-radius: 5px;
-    padding-left:15px;
     width: 700px;
     height: 750px;
     text-align: center;
