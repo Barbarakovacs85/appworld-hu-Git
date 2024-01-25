@@ -6,38 +6,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-... (a hitelességi kódok)" crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>   
+    <title>Document</title> 
+    <style>
+
+    
+@media (max-width: 667px) {
+    .flex-container {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .white-box{
+        width: 100%;
+    }
+    h4{
+        font-size:13px;
+        margin-right:35px;
+    }
+    .hirek-one {
+        width: 100%;
+    }
+  
+}
+@media(max-width:667px){
+    h1{
+        margin-left:-150px;
+        margin-top:-35px;
+}
+}
+@media(max-width:667px){
+    .wetter-section{
+        margin-left:-275px;
+        width:500px;       
+    }
+    .people{
+        margin-left:-275px;
+        width:500px;       
+    }
+    .hirek{
+        margin-left:-205px;
+        width:60px; 
+    }
+    .hirek-one img{
+        margin-left:-75px;
+        width:500px;
+    }
+   
+}
+@media(max-width:667px){
+    .hirstart{
+        text-align: center;
+        margin-left:-250px;
+         width: 490px;
+        }
+}
+    </style>  
 </head>
 <body>
     <div class="navbar">
         <div class="left-icon">
-            <h6><i class="fa-regular fa-comment-dots"></i> iChat</h6>
+            <h6><i class="fa-regular fa-comment-dots"></i>iChat</h6>
         </div>
         <div class="center-container">
-            <div class="white-box"></div>
+            <div class="white-box"><h4>Emberek, beszélgetések, helyek keresése</h4></div>
         </div>
         <div class="right-icon">
             <i class="fa fa-bell"></i>
         </div>
     </div>
-<h1>Időjárás</h1>
+
 
 <div class="flex-container">
-  <div>1</div>
-  <h1></h1>
-  <div>2</div>
-  <div>3</div>  
-  <div>4</div>
-  <div>5</div>
-  <div>6</div>  
-  <div>7</div>
-  <div>8</div>
- <div class="forum-section">
-  <div>9</div>  
- </div>
+    <div class="picture">
+        <h1>Időjárás</h1>
+        <div class="wetter-section">
+            <img src="./wetter-picture.png" alt="">
+        </div>
+    
+        <h1>Emberek</h1>
+        <div class="people">
+            <img src="./picture-people.png" alt="">
+        </div>
+       
+        <h1>Közzététel</h1>
+        <div class="people">
+            <img src="./picture-message.png" alt="">
+        </div>
+        
+     <div class="hirek">   
+        <div class="hirek-one">
+            <img src="./hirstart-picture.png" alt="">
+        </div>
+
+        <div class="hirek-one" style="width:62%;">
+            <img src="./vide-foto-picture.png" alt="">
+        </div>
+        <div class="hirek-one">
+            <img src="./video-picture.png" alt="">
+        </div>
+        <div class="hirek-one">
+            <img src="./forum-picture.png" alt="">
+        </div>
+     </div>
+    </div>
+  <div class="forum-section">
+    <div class="content-section">
+        <div class="hirstart">
+            <img src="./hírstart1-picture.png" alt="">
+        </div>
+        <div class="hirstart">
+            <img src="./hírstart2.png" alt="">
+        </div>
+        <div class="hirstart">
+            <img src="./hírstart3.png" alt="">
+        </div>
+        <div class="hirstart">
+            <img src="./hírstart4.png" alt="">
+        </div>
+        <div class="hirstart">
+            <img src="./hírstart5.png" alt="">
+        </div>
+        <div class="hirstart">
+            <img src="./hírstart6.png" alt="">
+        </div>
+        <div class="hirstart">
+            <img src="./hírstart7.png" alt="">
+        </div>
+        <div class="hirstart">
+            <img src="./hírstart8.png" alt="">
+        </div>
+        <div class="hirstart">
+            <img src="./hírstart2.png" alt="">
+        </div>
+        <div class="hirstart">
+            <img src="./hírstart3.png" alt="">
+        </div>
+        <div class="hirstart">
+            <img src="./hírstart4.png" alt="">
+        </div>
+        <div class="hirstart">
+            <img src="./hírstart5.png" alt="">
+        </div>
+    </div>
+  </div>
 </div>
 
-<p>Try resizing the browser window.</p>
+
+
 
 </body>
 </html>

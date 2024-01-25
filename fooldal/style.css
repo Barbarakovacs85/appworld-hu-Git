@@ -29,10 +29,14 @@ body{
     display: flex;
     justify-content: center;
 }
-
+h4{
+    margin-left:15px;
+    padding-top:10px;
+    color: #999898;
+}
 .white-box {
     width: 840px;
-    height: 40px;
+    height: 30px;
     background-color: #fff;
     border-radius: 5px;
 }
