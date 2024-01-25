@@ -49,3 +49,4 @@ Css-ben elkezdtem a stilizálást:
  - amit elhelyeztem benne. (h2,h3,h5,h5 és p tageket magát az alap fotót), majd ezeket css-ben megformáltam. 
 -szerkesztés után  megcsináltam a statikus mobilos verzióját
 
+![mobil nézet](https://github.com/Barbarakovacs85/appworld-hu-Git/assets/133600947/797dedd2-f504-4933-8041-0e6e661c5587)
