@@ -47,3 +47,5 @@ Css-ben elkezdtem a stilizálást:
 1.lépésként a html-ben dolgoztam
  - Létrehoztam egy container-t amelyben elkészítettem az oldalnak a blog jegeyzés részét kártyákat hírekkel.
  - amit elhelyeztem benne. (h2,h3,h5,h5 és p tageket magát az alap fotót), majd ezeket css-ben megformáltam. 
+-szerkesztés után  megcsináltam a statikus mobilos verzióját
+
